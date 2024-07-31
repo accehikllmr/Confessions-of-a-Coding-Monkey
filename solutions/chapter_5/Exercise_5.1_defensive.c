@@ -9,6 +9,7 @@ int main(void)
     int num, den, mod;
 
     //calling functions which will return integer values after having checked them, rather than getting them first and then calling a function to check them
+    //prevents user from inputting characters and symbols instead of digits
     num = get_int();
     den = get_int();
 
@@ -17,6 +18,7 @@ int main(void)
     {
         printf("Error: Cannot divide by zero.");
 
+        //for whatever reason, will not reach return function outside of this conditional, so need to add this one
         return 0;
     }
 
