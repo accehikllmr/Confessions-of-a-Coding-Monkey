@@ -12,12 +12,12 @@ int main(void)
 
     scanf("%d%d", &num, &den);
 
-    //function always called first, when it returns a value of zero (or false) it continues reading the code since there are no exceptions to handle
+    //function always called first, when it returns a value of zero (its default value) it continues reading the code since there are no exceptions to handle
     if (setjmp(env) == 0)
     {
         if (den == 0)
         {
-            //exception has occurred and this function call setjmp again, but this time setjmp will not return a value of zero and thus not continue reading
+            //exception has occurred and this function calls setjmp again, but this time setjmp will not return a value of zero and thus not continue reading
             //the code, 3 is the value to be returned by setjmp when it gets called anew
             longjmp(env, 3);
         }
