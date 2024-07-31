@@ -30,7 +30,6 @@ int main(void)
         case 0:
             printf("numerator = %d\n", num);
             printf("denominator = %d\n", den);
-            scanf("%d", &pause);
             printf("Cannot divide by zero.");
 
         default:
@@ -39,5 +38,4 @@ int main(void)
 
         return 0;
     }
-    return 0;
 }
