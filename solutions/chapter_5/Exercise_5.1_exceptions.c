@@ -12,7 +12,7 @@ int main(void)
 
     scanf("%d%d", &num, &den);
 
-    //function always called first, when it returns a value of zero (or true) it continues reading the code since there are no exceptions to handle
+    //function always called first, when it returns a value of zero (or false) it continues reading the code since there are no exceptions to handle
     if (setjmp(env) == 0)
     {
         if (den == 0)
