@@ -43,7 +43,7 @@ int main(void) {
 
     discriminant = (b * b) - (4 * a * c);
 
-    //indentation for the same nesting depth should be aligned (see lines 28 + 47, and lines 37 + 42)
+    //indentation for the same nesting depth should be aligned
     //otherwise, the program will soon find itself off of the page
 
     //placement of braces is the K&R style (one among several others)
@@ -55,7 +55,7 @@ int main(void) {
         denominator = 2 * a;
 
         firstRoot = firstNum / denominator;
-        secondRoot = secondN / denominator;
+        secondRoot = secondNum / denominator;
 
         if (firstRoot != secondRoot) {
 
