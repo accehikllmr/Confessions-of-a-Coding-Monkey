@@ -18,7 +18,7 @@ int main(void)
         if (den == 0)
         {
             //exception has occurred and this function calls setjmp again, but this time setjmp will not return a value of zero and thus not continue reading
-            //the code, 3 is the value to be returned by setjmp when it gets called anew
+            //the code, 3 is the value to be returned by setjmp when it gets called anew, but the number could be anything (other than 0)
             longjmp(env, 3);
         }
         else
