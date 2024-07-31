@@ -13,4 +13,6 @@ int main(void)
 
     mod = num % den;
     printf("remainder = %d", mod);
+
+    return 0;
 }
