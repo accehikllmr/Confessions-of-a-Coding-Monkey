@@ -12,7 +12,7 @@ int main(void)
     assert(den > 0);
 
     mod = num % den;
-    printf("remainder = %d", mod);
+    printf("remainder = %d\n", mod);
 
     return 0;
 }

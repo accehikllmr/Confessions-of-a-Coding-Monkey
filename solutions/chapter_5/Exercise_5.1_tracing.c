@@ -30,11 +30,11 @@ int main(void)
         case 0:
             printf("numerator = %d\n", num);
             printf("denominator = %d\n", den);
-            printf("Cannot divide by zero.");
+            printf("Cannot divide by zero.\n");
 
         default:
             mod = num % den;
-            printf("remainder = %d", mod);
+            printf("remainder = %d\n", mod);
 
         return 0;
     }

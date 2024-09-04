@@ -23,7 +23,7 @@ int main(void) { //white space prior to curly bracket
     //K&R style for placement of braces (curly brackets)
     if (sMajAxis >= sMinAxis) {
         ec = sqrt(sMajAxis * sMajAxis - sMinAxis * sMinAxis) / sMajAxis; //white spaces between variables and operators, parentheses and curly brackets
-        printf("E = %.5lf", ec);                                         //and if and parenthesis
+        printf("E = %.5lf\n", ec);                                         //and if and parenthesis
 
     }
   

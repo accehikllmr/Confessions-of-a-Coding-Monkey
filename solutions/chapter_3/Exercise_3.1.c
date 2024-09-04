@@ -16,7 +16,7 @@ int main() {
     scanf("%f", &waterHead);
 
     P = efficiency * density * gravity * waterHead * waterFlow;
-    printf("The power generated is %.0f kilowatts.", P); //use .0f to return a value without decimal figures
+    printf("The power generated is %.0f kilowatts.\n", P); //use .0f to return a value without decimal figures
 
     return 0;
 }

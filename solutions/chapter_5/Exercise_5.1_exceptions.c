@@ -24,12 +24,12 @@ int main(void)
         else
         {
             mod = num % den;
-            printf("remainder = %d", mod);
+            printf("remainder = %d\n", mod);
         }
     }
     else
     {
-        printf("Exception : Cannot divide by zero.");
+        printf("Exception : Cannot divide by zero.\n");
     }
 
     return 0;

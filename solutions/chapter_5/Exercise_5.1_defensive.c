@@ -16,14 +16,14 @@ int main(void)
     //conditional structure to terminate program if denominator is zero (impossible division)
     if (den == 0)
     {
-        printf("Error: Cannot divide by zero.");
+        printf("Error: Cannot divide by zero.\n");
 
         //for whatever reason, will not reach return function outside of this conditional, so need to add this one
         return 0;
     }
 
     mod = num % den;
-    printf("remainder = %d", mod);
+    printf("remainder = %d\n", mod);
 
     return 0;
 }
