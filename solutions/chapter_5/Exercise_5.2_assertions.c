@@ -51,6 +51,7 @@ int main(void)
     return 0;
 }
 
+//not using getchar(), so characters inputs break the program
 void test(double x)
 {
     assert(x > 0);
