@@ -1,4 +1,4 @@
-# confessions-of-a-coding-monkey
+# Confessions-of-a-Coding-Monkey
 
 This repository will eventually contain my own solutions to all problems in the second edition of the textbook *Confessions of a Coding Monkey* by Michael A. Wirth. 
 
